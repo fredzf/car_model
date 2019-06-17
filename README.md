@@ -24,7 +24,7 @@ This repository is to build a model to classify cars models using stanford-cars 
 
 The challenge is to classify the car models and make using stanford dataset. Unlike traditional image classification problem which is to categorize different objects, such as cats and dogs, trees and cars; this challenge is to classify car model and make within the class. In literature, the problem is called Fine-grained image classification probem. The problem is challenging, because the visual differences between the categories are small and can be easily overwhelmed by those minor difference caused by factors such as pose, viewpoint, or location of the object in the image.
 
-The final model designed for this project is able to achieve 89.2% validation accuracy and 87.8 testing accuracy.
+The final model designed for this project is able to achieve 89.2% validation accuracy and 87.8 testing accuracy. The model architecture can be downloaded from [model](https://drive.google.com/open?id=1R36ziTdgMGqfg-DbFk81BE6mjXjly9AZ), and weights can be downloaded from [weights](https://drive.google.com/open?id=1jcJUsu4PhTGhVaC8h8YwGV3vmweXSQ6t).
 
 ### Pre-processing
 The data was cropped using the bounding box to reduce background noise. 80/20 rule was applied for train-test split.
@@ -51,7 +51,7 @@ By bilinear pooling, more feature combinations were created so as to classify mi
 However, instead of passing to 2 networks, the model used for this projetc was only passing to 1 VGG16 network to reduce processing time. The model architecture is as following:
 ![model architecture](imgs/model.png)
 
-The result shows that, bilinear pooling improved the model results significantly, where the validation accuracy increased to 89.2% and testing accuracy increased to 87.8%.
+The result shows that, bilinear pooling improved the model results significantly, where the validation accuracy increased to 89.2% and testing accuracy increased to 87.8%. The model architecture can be downloaded from [model](https://drive.google.com/open?id=1R36ziTdgMGqfg-DbFk81BE6mjXjly9AZ), and weights can be downloaded from [weights](https://drive.google.com/open?id=1jcJUsu4PhTGhVaC8h8YwGV3vmweXSQ6t).
 
 | Architecture        |     Validation Accuracy     |       Testing Accuracy      |
 |---------------------|:---------------------------:|:---------------------------:|
