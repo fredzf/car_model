@@ -65,6 +65,6 @@ The result shows that, bilinear pooling improved the model results significantly
 
 ## Reference
 
-[1] [BCNN_keras](https://github.com/tkhs3/BCNN_keras).
+[1] [Bilinear CNN Models for Fine-grained Visual Recognition](http://vis-www.cs.umass.edu/bcnn/docs/bcnn_iccv15.pdf).
 
-[2] [Bilinear CNN Models for Fine-grained Visual Recognition](http://vis-www.cs.umass.edu/bcnn/docs/bcnn_iccv15.pdf).
+[2] [BCNN_keras](https://github.com/tkhs3/BCNN_keras).
