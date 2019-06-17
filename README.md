@@ -47,6 +47,7 @@ Bilinear CNN[1] is a simple yet powerful model for fine-grained image classifica
 By bilinear pooling, more feature combinations were created so as to classify minor difference between objects easily. 
 ![BCNN](imgs/BCNN.png)
 
+##### BCNN (modified)
 However, instead of passing to 2 networks, the model used for this projetc was only passing to 1 VGG16 network to reduce processing time. The model architecture is as following:
 ![model architecture](imgs/model.png)
 
