@@ -1,4 +1,4 @@
-# Grab Computer Vision Challenge - Stanford Cars
+# Computer Vision Challenge - Stanford Cars
 
 This repository is to build a model to classify cars models using stanford-cars dataset.
 
